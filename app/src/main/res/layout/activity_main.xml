@@ -109,13 +109,13 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical"
                             android:background="@color/white"
-                            android:weightSum="3">
+                            android:weightSum="4">
 
                             <ImageView
                                 android:contentDescription="@null"
                                 android:layout_width="match_parent"
-                                android:layout_height="80dp"
-                                android:layout_weight="2"
+                                android:layout_height="0dp"
+                                android:layout_weight="3"
                                 android:adjustViewBounds="true"
                                 android:scaleType="fitCenter"
                                 android:src="@drawable/ic_baseline_web"
@@ -124,10 +124,11 @@
 
                             <TextView
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                                android:layout_height="0dp"
                                 android:layout_marginBottom="2dp"
                                 android:gravity="bottom|center_horizontal"
                                 android:text="Web Sekolah"
+                                android:layout_weight="1"
                                 android:textColor="@color/ijomuda"
                                 android:textSize="12sp"
                                 android:textStyle="bold" />
@@ -158,13 +159,13 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical"
                             android:background="@color/white"
-                            android:weightSum="3">
+                            android:weightSum="4">
 
                             <ImageView
                                 android:contentDescription="@null"
                                 android:layout_width="match_parent"
-                                android:layout_height="80dp"
-                                android:layout_weight="2"
+                                android:layout_height="0dp"
+                                android:layout_weight="3"
                                 android:adjustViewBounds="true"
                                 android:scaleType="fitCenter"
                                 android:src="@drawable/ic_round_perpus"
@@ -173,10 +174,11 @@
 
                             <TextView
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                                android:layout_height="0dp"
                                 android:layout_marginBottom="2dp"
                                 android:gravity="bottom|center_horizontal"
                                 android:text="Perpustakaan"
+                                android:layout_weight="1"
                                 android:textColor="@color/ijomuda"
                                 android:textSize="12sp"
                                 android:textStyle="bold" />
@@ -207,13 +209,13 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical"
                             android:background="@color/white"
-                            android:weightSum="3">
+                            android:weightSum="4">
 
                             <ImageView
                                 android:contentDescription="@null"
                                 android:layout_width="match_parent"
-                                android:layout_height="80dp"
-                                android:layout_weight="2"
+                                android:layout_height="0dp"
+                                android:layout_weight="3"
                                 android:adjustViewBounds="true"
                                 android:scaleType="fitCenter"
                                 android:src="@drawable/ic_round_computer"
@@ -222,10 +224,11 @@
 
                             <TextView
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                                android:layout_height="0dp"
                                 android:layout_marginBottom="2dp"
                                 android:gravity="bottom|center_horizontal"
                                 android:text="SIRO"
+                                android:layout_weight="1"
                                 android:textColor="@color/ijomuda"
                                 android:textSize="12sp"
                                 android:textStyle="bold" />
@@ -266,13 +269,13 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:background="@color/white"
-                        android:weightSum="3">
+                        android:weightSum="4">
 
                         <ImageView
                             android:contentDescription="@null"
                             android:layout_width="match_parent"
-                            android:layout_height="80dp"
-                            android:layout_weight="2"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"
                             android:adjustViewBounds="true"
                             android:scaleType="fitCenter"
                             android:src="@drawable/ic_baseline_settings_system_daydream_24"
@@ -281,10 +284,11 @@
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="0dp"
                             android:layout_marginBottom="2dp"
                             android:gravity="bottom|center_horizontal"
                             android:text="SINO"
+                            android:layout_weight="1"
                             android:textColor="@color/ijomuda"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -315,13 +319,13 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:background="@color/white"
-                        android:weightSum="3">
+                        android:weightSum="4">
 
                         <ImageView
                             android:contentDescription="@null"
                             android:layout_width="match_parent"
-                            android:layout_height="80dp"
-                            android:layout_weight="2"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"
                             android:adjustViewBounds="true"
                             android:scaleType="fitCenter"
                             android:src="@drawable/ic_baseline_library_books_24"
@@ -330,10 +334,11 @@
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="0dp"
                             android:layout_marginBottom="2dp"
                             android:gravity="bottom|center_horizontal"
                             android:text="Dapodik"
+                            android:layout_weight="1"
                             android:textColor="@color/ijomuda"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -364,13 +369,13 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:background="@color/white"
-                        android:weightSum="3">
+                        android:weightSum="4">
 
                         <ImageView
                             android:contentDescription="@null"
                             android:layout_width="match_parent"
-                            android:layout_height="80dp"
-                            android:layout_weight="2"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"
                             android:adjustViewBounds="true"
                             android:scaleType="fitCenter"
                             android:src="@drawable/ic_baseline_task_alt_24"
@@ -379,8 +384,9 @@
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="0dp"
                             android:layout_marginBottom="2dp"
+                            android:layout_weight="1"
                             android:gravity="bottom|center_horizontal"
                             android:text="Ujian Online"
                             android:textColor="@color/ijomuda"
